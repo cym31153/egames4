@@ -1,0 +1,74 @@
+2022-10-05 15:18:48.829 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2022-10-05 15:18:48.921 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-10-05 15:18:49.058 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2022-10-05 15:18:50.506 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-05 15:18:50.556 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-05 15:18:50.991 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-05 15:18:50.991 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-05 15:19:12.876 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-05 15:19:12.992 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-05 15:19:15.096 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-10-05 15:19:15.709 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.07s
+2022-10-05 15:19:15.711 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading toy_rabbit.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/toy_rabbit.onnx
+2022-10-05 15:19:17.119 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 0.18s
+2022-10-05 15:19:21.180 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-05 15:19:21.208 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-10-05 15:19:21.826 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-05 15:19:22.955 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 0.01s
+2022-10-05 15:19:30.610 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-05 15:19:31.166 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-05 15:19:31.828 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『The Drone Racing League Simulator』 url=https://store.epicgames.com/zh-CN/p/the-drone-racing-league-simulator
+2022-10-05 15:19:31.828 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Runbow』 url=https://store.epicgames.com/zh-CN/p/runbow-fc9fa4
+2022-10-05 15:19:31.829 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-05 15:19:43.654 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 11:00 - game=『The Drone Racing League Simulator』
+2022-10-05 15:19:43.749 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-05 15:19:55.033 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 11:00 - game=『Runbow』
+2022-10-05 15:19:55.111 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-05 15:19:55.552 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-05 15:19:58.890 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-05 15:19:59.183 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-05 15:20:02.191 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-05 15:20:02.217 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-05 15:20:02.217 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-05 15:20:08.892 | DEBUG    | services.bricklayer.core:annealing:931 - [🎃] 退火成功
+2022-10-05 15:20:08.892 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-05 15:20:14.614 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-05 15:20:17.164 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-05 15:20:22.341 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-05 15:20:23.449 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-05 15:20:23.578 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-05 15:20:23.706 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-05 15:20:23.706 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-05 15:20:31.803 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-05 15:20:31.809 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-05 15:20:34.027 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「冰上企鹅」
+2022-10-05 15:20:34.654 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-05 15:20:34.656 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading penguin_on_ice.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/penguin_on_ice.onnx
+2022-10-05 15:20:35.793 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_on_ice(ResNet)_model: 0.18s
+2022-10-05 15:20:39.866 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-05 15:20:39.896 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「冰上企鹅」
+2022-10-05 15:20:40.486 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.07s
+2022-10-05 15:20:42.004 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_on_ice(ResNet)_model: 0.01s
+2022-10-05 15:20:47.800 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-05 15:20:49.077 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-05 15:20:50.101 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Undead Pack』 url=https://www.unrealengine.com/marketplace/zh-CN/product/undead-pack-01
+2022-10-05 15:20:50.101 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Halloween Pumpkins / 150+ variations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/halloween-pumpkins-150-variations
+2022-10-05 15:20:50.102 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
+2022-10-05 15:20:50.102 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Zombie Movement and Modular Interaction Animations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/zombie-animations-and-modular-interactions
+2022-10-05 15:20:50.102 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『4 IN 1 Modular Research Facility / Mega Bundle』 url=https://www.unrealengine.com/marketplace/zh-CN/product/research-environment
+2022-10-05 15:20:59.214 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1055 - >> PENDING [UnrealClaimer] 添加到购物车 - hook=『Undead Pack』
+2022-10-05 15:21:00.321 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1055 - >> PENDING [UnrealClaimer] 添加到购物车 - hook=『Halloween Pumpkins / 150+ variations』
+2022-10-05 15:21:01.411 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1055 - >> PENDING [UnrealClaimer] 添加到购物车 - hook=『Advanced AI Spawn System』
+2022-10-05 15:21:02.506 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1055 - >> PENDING [UnrealClaimer] 添加到购物车 - hook=『Zombie Movement and Modular Interaction Animations』
+2022-10-05 15:21:03.607 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1055 - >> PENDING [UnrealClaimer] 添加到购物车 - hook=『4 IN 1 Modular Research Facility / Mega Bundle』
+2022-10-05 15:21:06.300 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1070 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-10-05 15:21:07.410 | DEBUG    | services.bricklayer.core:unreal_activate_payment:1085 - >> HANDLE [UnrealClaimer] 激活订单
+2022-10-05 15:21:13.726 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-10-05 15:21:14.338 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.07s
+2022-10-05 15:21:15.100 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 0.01s
+2022-10-05 15:21:19.182 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-05 15:21:19.228 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-10-05 15:21:19.859 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
+2022-10-05 15:21:20.852 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 0.01s
+2022-10-05 15:21:26.044 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-05 15:21:37.408 | SUCCESS  | services.bricklayer.core:unreal_activate_payment:1029 - >> GET [UnrealClaimer] 🥂 领取成功
