@@ -1,1 +1,58 @@
 2022-10-12 00:59:04.902 | ERROR    | services.deploy:_bad_omen:264 - >> Notify [UnrealClaimer] 推送运行日志 - active_pusher=[] err=認證失敗，可能原因：公网IP被标记为高威胁目标
+2022-10-26 01:10:19.285 | ERROR    | services.deploy:_bad_omen:222 - >> Notify [GameClaimer] 推送运行日志 - active_pusher=[] err=Target closed
+=========================== logs ===========================
+  waiting for frame "xpath=//iframe[contains(@title, 'content of the hCaptcha')]"
+  selector resolved to visible <iframe scrolling="no" frameborder="0" title="Main conte…></iframe>
+waiting for selector "//iframe[contains(@title, 'content of the hCaptcha')] >> internal:control=enter-frame >> //div[@class='task-image'] >> nth=8"
+============================================================
+2022-10-26 01:13:39.804 | CRITICAL | services.bricklayer.core:refresh_ctx_cookies:698 - >> MISS [CookieManager] Identity token update failed
+2022-10-26 01:14:16.094 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (2277), thread 'MainThread' (139914420627264):
+Traceback (most recent call last):
+  File "/home/runner/work/egames4/egames4/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/egames4/egames4/epic/src/services/scaffold.py", line 143, in unreal
+    Scaffold.claim(silence=silence, ignore=ignore, unreal=True)
+> File "/home/runner/work/egames4/egames4/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames4/egames4/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 111, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 382, in just_do_it
+    fire(
+  File "/home/runner/work/egames4/egames4/epic/src/services/utils/toolbox.py", line 75, in fire
+    container(context)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 374, in run
+    self.bricklayer.get_free_content(page=context.new_page())
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/unreal.py", line 75, in get_free_content
+    self.result = self.unreal_activate_payment(page, init=not i)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 579, in unreal_activate_payment
+    offer_buttons.nth(i).click(delay=500)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 13519, in click
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_locator.py", line 149, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 484, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[@class='asset-list-group']//article//i >> nth=0"
+  selector resolved to hidden <i class="add">添加到购物车</i>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
