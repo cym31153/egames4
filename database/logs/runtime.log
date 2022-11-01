@@ -313,3 +313,82 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
+2022-11-02 00:52:51.203 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-02 00:52:52.951 | INFO     | services.bricklayer.core:refresh_ctx_cookies:689 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-02 00:52:53.017 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 00:52:55.934 | INFO     | services.bricklayer.core:login:510 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-02 00:52:58.971 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 00:52:58.972 | INFO     | services.explorer.explorer:get_oder_history:216 - 初始化订单数据
+2022-11-02 00:53:00.187 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Warhammer 40,000: Mechanicus - Standard Edition』 url=https://store.epicgames.com/zh-CN/p/warhammer-mechanicus-0e4b71
+2022-11-02 00:53:00.188 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Saturnalia』 url=https://store.epicgames.com/zh-CN/p/saturnalia
+2022-11-02 00:53:01.133 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-02 00:53:11.266 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 08:00 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 00:53:11.372 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 00:53:17.334 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/3 08:00 - game=『Saturnalia』
+2022-11-02 00:53:17.487 | INFO     | services.bricklayer.core:_activate_payment:474 - [🔖] 已添加商品至购物车
+2022-11-02 00:53:20.551 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 00:53:21.663 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 00:53:21.670 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 00:53:29.981 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 00:53:30.020 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「森林中黑猫」
+2022-11-02 00:53:31.299 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.67s
+2022-11-02 00:53:31.988 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 00:53:35.177 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 00:53:36.243 | INFO     | services.bricklayer.core:_activate_payment:478 - [🔖] 已激活购物车零元购订单
+2022-11-02 00:53:36.244 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [🛵] 处理购物订单...
+2022-11-02 00:53:43.584 | DEBUG    | services.bricklayer.core:cart_handle_payment:564 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-02 00:53:43.621 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「危险海域」
+2022-11-02 00:53:44.413 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.34s
+2022-11-02 00:53:44.416 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading dangerous_sea.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/dangerous_sea.onnx
+2022-11-02 00:53:46.909 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - dangerous_sea(ResNet)_model: 0.68s
+2022-11-02 00:53:46.927 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 00:53:48.953 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「危险海域」
+2022-11-02 00:53:49.830 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.38s
+2022-11-02 00:53:51.633 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - dangerous_sea(ResNet)_model: 0.01s
+2022-11-02 00:53:56.268 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-02 00:53:56.468 | DEBUG    | services.bricklayer.core:cart_handle_payment:566 - [🌀] 弹出内联订单框架...
+2022-11-02 00:53:57.883 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 00:53:58.335 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 00:54:04.506 | INFO     | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛴 游戏已在库 - game=『Warhammer 40,000: Mechanicus - Standard Edition』
+2022-11-02 00:54:05.691 | DEBUG    | services.bricklayer.core:cart_is_empty:534 - [🛵] 审查购物车状态
+2022-11-02 00:54:06.134 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-11-02 00:54:15.110 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-02 00:54:15.306 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 00:54:16.633 | INFO     | services.bricklayer.core:refresh_ctx_cookies:689 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-02 00:54:16.697 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 00:54:26.424 | INFO     | services.bricklayer.core:login:530 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-02 00:54:26.425 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-02 00:54:28.648 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-11-02 00:54:29.729 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.7s
+2022-11-02 00:54:29.966 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading toy_rabbit.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/toy_rabbit.onnx
+2022-11-02 00:54:33.585 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 2.09s
+2022-11-02 00:54:33.606 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 00:54:35.638 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「玩具兔子」
+2022-11-02 00:54:36.401 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.43s
+2022-11-02 00:54:38.477 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_rabbit(ResNet)_model: 0.71s
+2022-11-02 00:54:43.527 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 00:54:45.535 | INFO     | services.bricklayer.core:login:497 - >> MATCH [CookieManager] 刷新令牌
+2022-11-02 00:54:48.210 | INFO     | services.bricklayer.core:login:522 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-02 00:54:48.590 | INFO     | services.bricklayer.core:load_ctx_cookies:657 - >> LOAD [CookieManager] Load context cookie
+2022-11-02 00:54:49.497 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『CLOTHING AND SHOE STORES』 url=https://www.unrealengine.com/marketplace/zh-CN/product/clothing-and-shoe-stores
+2022-11-02 00:54:49.497 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Physical Interaction System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/physical-interaction-system
+2022-11-02 00:54:49.497 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Universal Camera』 url=https://www.unrealengine.com/marketplace/zh-CN/product/universal-camera
+2022-11-02 00:54:49.497 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
+2022-11-02 00:54:49.498 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [UnrealClaimer] 🍜 发现月免内容 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
+2022-11-02 00:54:53.271 | DEBUG    | services.bricklayer.core:unreal_activate_payment:593 - >> PENDING [UnrealClaimer] 添加到购物车 - offer=『CLOTHING AND SHOE STORES』
+2022-11-02 00:54:54.195 | DEBUG    | services.bricklayer.core:unreal_activate_payment:593 - >> PENDING [UnrealClaimer] 添加到购物车 - offer=『Physical Interaction System』
+2022-11-02 00:54:54.829 | DEBUG    | services.bricklayer.core:unreal_activate_payment:593 - >> PENDING [UnrealClaimer] 添加到购物车 - offer=『Universal Camera』
+2022-11-02 00:54:55.580 | DEBUG    | services.bricklayer.core:unreal_activate_payment:593 - >> PENDING [UnrealClaimer] 添加到购物车 - offer=『Loft Office (Modular)』
+2022-11-02 00:54:56.291 | DEBUG    | services.bricklayer.core:unreal_activate_payment:593 - >> PENDING [UnrealClaimer] 添加到购物车 - offer=『Animated Rain - Waterdrop Material & FX』
+2022-11-02 00:54:57.020 | DEBUG    | services.bricklayer.core:unreal_activate_payment:601 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-11-02 00:54:57.235 | DEBUG    | services.bricklayer.core:unreal_activate_payment:604 - >> HANDLE [UnrealClaimer] 激活订单
+2022-11-02 00:55:03.512 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常戴在头上的物品」
+2022-11-02 00:55:04.537 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.39s
+2022-11-02 00:55:04.540 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading hat.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hat.onnx
+2022-11-02 00:55:07.237 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - hat(ResNet)_model: 0.63s
+2022-11-02 00:55:07.260 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-02 00:55:09.291 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常戴在头上的物品」
+2022-11-02 00:55:10.273 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.42s
+2022-11-02 00:55:12.471 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - hat(ResNet)_model: 0.01s
+2022-11-02 00:55:17.293 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-02 00:55:20.692 | SUCCESS  | services.bricklayer.core:unreal_activate_payment:579 - >> GET [UnrealClaimer] 🥂 领取成功
