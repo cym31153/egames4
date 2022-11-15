@@ -459,3 +459,37 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 2022-11-09 00:54:44.128 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
 2022-11-09 00:54:44.128 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
 2022-11-09 00:54:44.128 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
+2022-11-16 00:45:38.631 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-16 00:45:39.798 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-16 00:45:39.856 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-16 00:45:41.835 | INFO     | services.bricklayer.core:login:494 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-16 00:45:43.507 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-16 00:45:43.509 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-16 00:45:45.216 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=待认领 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-16 00:45:45.217 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=待认领 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-16 00:45:52.753 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=获取 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-16 00:45:53.435 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-16 00:45:53.692 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-16 00:46:05.298 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-16 00:46:05.334 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上松鼠」
+2022-11-16 00:46:06.373 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.45s
+2022-11-16 00:46:06.376 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading squirrel_on_a_tree.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/squirrel_on_a_tree.onnx
+2022-11-16 00:46:08.219 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - squirrel_on_a_tree(ResNet)_model: 0.21s
+2022-11-16 00:46:08.240 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-16 00:46:10.272 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上松鼠」
+2022-11-16 00:46:11.231 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.43s
+2022-11-16 00:46:13.256 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - squirrel_on_a_tree(ResNet)_model: 0.01s
+2022-11-16 00:46:18.163 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-16 00:46:18.661 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-16 00:46:25.031 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=已在库中 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-16 00:46:33.894 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-16 00:46:34.108 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-16 00:46:35.125 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-16 00:46:35.186 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-16 00:46:38.855 | INFO     | services.bricklayer.core:login:506 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-16 00:46:39.768 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-16 00:46:40.263 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『CLOTHING AND SHOE STORES』 url=https://www.unrealengine.com/marketplace/zh-CN/product/clothing-and-shoe-stores
+2022-11-16 00:46:40.264 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Physical Interaction System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/physical-interaction-system
+2022-11-16 00:46:40.264 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Universal Camera』 url=https://www.unrealengine.com/marketplace/zh-CN/product/universal-camera
+2022-11-16 00:46:40.264 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
+2022-11-16 00:46:40.265 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
