@@ -3,7 +3,7 @@ name: egames
 on:
   workflow_dispatch:
   schedule:
-    - cron: "18 16 * * 2" # 修改你的定时配置
+    - cron: "18 16 * * *" # 修改你的定时配置
 
 jobs:
   setup:
