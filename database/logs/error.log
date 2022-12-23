@@ -104,3 +104,93 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
   waiting for frame "xpath=//div[@id='webPurchaseContainer']//iframe"
 ============================================================
+2022-12-24 00:36:20.780 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-24 00:36:58.532 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-24 00:36:58.908 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1874), thread 'MainThread' (140518443486272):
+Traceback (most recent call last):
+  File "/home/runner/work/egames4/egames4/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/egames4/egames4/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames4/egames4/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/egames4/egames4/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 305, in run
+    result = empower_games_claimer(self.bricklayer, promotion.url, page, pattern="get")
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/game.py", line 170, in empower_games_claimer
+    return claimer.get_free_game(page_link=page_link, page=page, pattern=pattern)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/game.py", line 157, in get_free_game
+    self.cart_handle_payment(page)  # mode: get
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 561, in cart_handle_payment
+    self._duel_with_challenge(page)  # cart_handle_payment
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 474, in _duel_with_challenge
+    resp = self.armor.anti_hcaptcha(page, window=window)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 267, in anti_hcaptcha
+    self.challenge(frame_challenge, model=model)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 125, in challenge
+    result = model.solution(img_stream=data, label=self.label_alias[self.label])
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 63, in solution
+    return self.classifier(img_stream, feature_filters=None)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 54, in classifier
+    raise ResourceWarning(_err_prompt)  # maybe mercy
+ResourceWarning: 
+            The remote network does not exist or the local cache has expired.
+            1. Check objects.yaml for typos | model=hedgehog_on_rocks.onnx;
+            2. Restart the program after deleting the local cache | dir=datas/models/_assets;
+            
+2022-12-24 00:37:00.465 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-24 00:37:31.433 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-24 00:37:31.779 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (2208), thread 'MainThread' (140278969400384):
+Traceback (most recent call last):
+  File "/home/runner/work/egames4/egames4/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/egames4/egames4/epic/src/services/scaffold.py", line 143, in unreal
+    Scaffold.claim(silence=silence, ignore=ignore, unreal=True)
+> File "/home/runner/work/egames4/egames4/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames4/egames4/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 109, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 354, in just_do_it
+    fire(
+  File "/home/runner/work/egames4/egames4/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames4/egames4/epic/src/services/deploy.py", line 348, in run
+    result = self.bricklayer.get_free_content(page=context.new_page())
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/unreal.py", line 80, in get_free_content
+    self.unreal_handle_payment(page)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 622, in unreal_handle_payment
+    self._duel_with_challenge(page)  # unreal
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 474, in _duel_with_challenge
+    resp = self.armor.anti_hcaptcha(page, window=window)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 267, in anti_hcaptcha
+    self.challenge(frame_challenge, model=model)
+  File "/home/runner/work/egames4/egames4/epic/src/services/bricklayer/core.py", line 125, in challenge
+    result = model.solution(img_stream=data, label=self.label_alias[self.label])
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 63, in solution
+    return self.classifier(img_stream, feature_filters=None)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 54, in classifier
+    raise ResourceWarning(_err_prompt)  # maybe mercy
+ResourceWarning: 
+            The remote network does not exist or the local cache has expired.
+            1. Check objects.yaml for typos | model=hedgehog_on_rocks.onnx;
+            2. Restart the program after deleting the local cache | dir=datas/models/_assets;
+            
