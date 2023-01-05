@@ -2380,3 +2380,122 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=hedgehog_on_rocks.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2023-01-06 07:26:36.565 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-01-06 07:26:37.589 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-01-06 07:26:37.649 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-01-06 07:26:40.420 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-01-06 07:26:42.012 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-01-06 07:26:42.014 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-01-06 07:26:42.457 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Shadow Tactics - Aiko's Choice - state=待认领 link=https://store.epicgames.com/zh-CN/p/shadow-tactics-aikos-choice-5678c1
+2023-01-06 07:26:42.457 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Kerbal Space Program - state=待认领 link=https://store.epicgames.com/zh-CN/p/kerbal-space-program
+2023-01-06 07:26:53.232 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Shadow Tactics - Aiko's Choice - state=获取 link=https://store.epicgames.com/zh-CN/p/shadow-tactics-aikos-choice-5678c1
+2023-01-06 07:26:53.783 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:26:53.834 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:27:05.394 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:27:05.496 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「雏菊」
+2023-01-06 07:27:05.496 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:27:07.105 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:27:08.637 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.53s
+2023-01-06 07:27:08.641 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading daisy.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/daisy.onnx
+2023-01-06 07:27:10.830 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - daisy(ResNet)_model: 0.4s
+2023-01-06 07:27:10.895 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:27:12.926 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「雏菊」
+2023-01-06 07:27:12.926 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:27:13.576 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:27:15.040 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.46s
+2023-01-06 07:27:17.080 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - daisy(ResNet)_model: 0.01s
+2023-01-06 07:27:17.107 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:27:17.108 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:27:19.361 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-06 07:27:27.058 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Shadow Tactics - Aiko's Choice - state=获取 link=https://store.epicgames.com/zh-CN/p/shadow-tactics-aikos-choice-5678c1
+2023-01-06 07:27:27.493 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:27:27.494 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:27:37.057 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:27:37.088 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:27:37.089 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:27:37.794 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:27:39.135 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-01-06 07:27:39.138 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sunflower.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sunflower.onnx
+2023-01-06 07:27:41.528 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.62s
+2023-01-06 07:27:41.546 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:27:43.567 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:27:43.567 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:27:44.233 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:27:45.422 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-01-06 07:27:47.058 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.07s
+2023-01-06 07:27:47.083 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:27:47.083 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:27:49.321 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-06 07:27:55.919 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Shadow Tactics - Aiko's Choice - state=获取 link=https://store.epicgames.com/zh-CN/p/shadow-tactics-aikos-choice-5678c1
+2023-01-06 07:27:56.497 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:27:56.497 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:28:05.701 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:28:05.728 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:28:05.729 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:28:06.378 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:28:07.619 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-01-06 07:28:09.426 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.09s
+2023-01-06 07:28:09.441 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:28:11.465 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:28:11.466 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:28:12.090 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:28:13.351 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2023-01-06 07:28:15.174 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-06 07:28:15.204 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:28:15.204 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:28:17.460 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-06 07:28:24.372 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Kerbal Space Program - state=获取 link=https://store.epicgames.com/zh-CN/p/kerbal-space-program
+2023-01-06 07:28:24.728 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:28:24.731 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:28:33.869 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:28:33.897 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-06 07:28:33.897 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:28:34.529 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:28:35.731 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-01-06 07:28:35.736 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sea_otter.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sea_otter.onnx
+2023-01-06 07:28:38.306 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.68s
+2023-01-06 07:28:38.322 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:28:40.345 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-06 07:28:40.346 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:28:40.954 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:28:42.106 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.15s
+2023-01-06 07:28:44.306 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.07s
+2023-01-06 07:28:44.330 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:28:44.333 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:28:46.670 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-06 07:28:53.017 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Kerbal Space Program - state=获取 link=https://store.epicgames.com/zh-CN/p/kerbal-space-program
+2023-01-06 07:28:53.396 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:28:53.396 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:29:02.544 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:29:02.574 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-06 07:29:02.575 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:29:03.172 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:29:04.347 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.17s
+2023-01-06 07:29:06.277 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.08s
+2023-01-06 07:29:06.294 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:29:08.315 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「海獭」
+2023-01-06 07:29:08.315 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:29:08.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:29:10.079 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.16s
+2023-01-06 07:29:11.721 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sea_otter(ResNet)_model: 0.14s
+2023-01-06 07:29:11.744 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:29:11.744 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:29:13.955 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-06 07:29:20.460 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Kerbal Space Program - state=获取 link=https://store.epicgames.com/zh-CN/p/kerbal-space-program
+2023-01-06 07:29:20.907 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-06 07:29:20.908 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-06 07:29:30.262 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-06 07:29:30.291 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:29:30.292 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:29:30.898 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:29:32.130 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-01-06 07:29:33.891 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.07s
+2023-01-06 07:29:33.970 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:29:35.992 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-06 07:29:35.992 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-06 07:29:36.578 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-06 07:29:37.752 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.17s
+2023-01-06 07:29:39.720 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.14s
+2023-01-06 07:29:39.742 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-06 07:29:39.743 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-06 07:29:42.047 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
