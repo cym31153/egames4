@@ -2725,3 +2725,102 @@ ResourceWarning:
 2023-01-13 07:29:31.869 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-01-13 07:29:34.132 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
 2023-01-13 07:29:40.118 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Divine Knockout（DKO） - state=立即购买 link=https://store.epicgames.com/zh-CN/p/divine-knockout
+2023-01-14 07:25:07.306 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-01-14 07:25:09.075 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-01-14 07:25:09.143 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-01-14 07:25:13.819 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-01-14 07:25:15.503 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-01-14 07:25:15.505 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-01-14 07:25:15.864 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Gamedec - state=待认领 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-14 07:25:15.865 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] First Class Trouble - state=待认领 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-14 07:25:15.865 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Divine Knockout（DKO） - state=待认领 link=https://store.epicgames.com/zh-CN/p/divine-knockout
+2023-01-14 07:25:24.587 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-14 07:25:25.037 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:25:25.063 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:25:34.907 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:25:34.961 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-14 07:25:34.961 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:25:35.881 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:25:36.807 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.93s
+2023-01-14 07:25:36.810 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sunflower.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sunflower.onnx
+2023-01-14 07:25:39.271 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.5s
+2023-01-14 07:25:39.306 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:25:51.313 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:25:59.009 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-14 07:25:59.572 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:25:59.572 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:26:08.916 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:26:08.946 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-14 07:26:08.946 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:26:09.759 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:26:10.632 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.87s
+2023-01-14 07:26:12.621 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-14 07:26:12.639 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:26:24.646 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:26:31.850 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Gamedec - state=获取 link=https://store.epicgames.com/zh-CN/p/gamedec
+2023-01-14 07:26:32.423 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:26:32.423 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:26:41.778 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:26:41.818 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2023-01-14 07:26:41.818 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:26:42.597 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:26:43.496 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.9s
+2023-01-14 07:26:45.453 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflower(ResNet)_model: 0.01s
+2023-01-14 07:26:45.475 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:26:57.482 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:27:04.304 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-14 07:27:04.682 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:27:04.699 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:27:14.144 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:27:14.179 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:27:14.180 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:27:15.015 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:27:15.916 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.9s
+2023-01-14 07:27:15.919 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading ladybug.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/ladybug.onnx
+2023-01-14 07:27:18.221 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.3s
+2023-01-14 07:27:18.248 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:27:20.279 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:27:20.279 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:27:21.010 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:27:21.952 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.94s
+2023-01-14 07:27:23.787 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-14 07:27:23.820 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-14 07:27:23.821 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:27:26.085 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:27:33.022 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-14 07:27:33.484 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:27:33.485 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:27:42.828 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:27:42.887 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:27:42.887 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:27:43.638 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:27:44.518 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.88s
+2023-01-14 07:27:46.103 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-14 07:27:46.119 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:27:48.142 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:27:48.143 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:27:48.847 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:27:49.767 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2023-01-14 07:27:51.513 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-14 07:27:51.564 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-14 07:27:51.564 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:27:53.785 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:28:00.432 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] First Class Trouble - state=获取 link=https://store.epicgames.com/zh-CN/p/first-class-trouble
+2023-01-14 07:28:00.817 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-14 07:28:00.818 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-14 07:28:10.095 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-14 07:28:10.128 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:28:10.129 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:28:10.863 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:28:11.746 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.88s
+2023-01-14 07:28:13.518 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-14 07:28:13.535 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:28:15.561 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-14 07:28:15.561 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-14 07:28:16.237 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-14 07:28:17.089 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.85s
+2023-01-14 07:28:18.852 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-14 07:28:18.886 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-14 07:28:18.886 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-14 07:28:21.134 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-14 07:28:27.648 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Divine Knockout（DKO） - state=立即购买 link=https://store.epicgames.com/zh-CN/p/divine-knockout
