@@ -2886,3 +2886,66 @@ ResourceWarning:
 2023-01-20 07:28:20.116 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
 2023-01-20 07:28:20.117 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-01-20 07:28:22.439 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-21 07:24:52.030 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-01-21 07:24:53.798 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-01-21 07:24:53.848 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-01-21 07:25:01.459 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-01-21 07:25:02.938 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-01-21 07:25:02.940 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-01-21 07:25:03.302 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Epistory - Typing Chronicles - state=待认领 link=https://store.epicgames.com/zh-CN/p/epistory-typing-chronicles-445794
+2023-01-21 07:25:09.933 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epistory - Typing Chronicles - state=获取 link=https://store.epicgames.com/zh-CN/p/epistory-typing-chronicles-445794
+2023-01-21 07:25:10.657 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-21 07:25:10.834 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-21 07:25:21.003 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-21 07:25:21.040 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-21 07:25:21.041 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:25:21.987 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:25:22.912 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.93s
+2023-01-21 07:25:22.915 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading ladybug.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/ladybug.onnx
+2023-01-21 07:25:25.573 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.36s
+2023-01-21 07:25:25.589 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:25:27.611 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「瓢虫」
+2023-01-21 07:25:27.611 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:25:28.324 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:25:29.240 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2023-01-21 07:25:30.871 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - ladybug(ResNet)_model: 0.01s
+2023-01-21 07:25:30.907 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-21 07:25:30.908 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:25:33.145 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-21 07:25:39.772 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epistory - Typing Chronicles - state=获取 link=https://store.epicgames.com/zh-CN/p/epistory-typing-chronicles-445794
+2023-01-21 07:25:40.188 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-21 07:25:40.189 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-21 07:25:49.495 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-21 07:25:49.529 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-21 07:25:49.529 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:25:50.241 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:25:51.164 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2023-01-21 07:25:51.167 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading panda_in_a_forest.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/panda_in_a_forest.onnx
+2023-01-21 07:25:53.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.45s
+2023-01-21 07:25:53.572 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:25:55.601 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-21 07:25:55.602 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:25:56.309 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:25:57.245 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.94s
+2023-01-21 07:25:59.484 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.22s
+2023-01-21 07:25:59.513 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-21 07:25:59.513 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:26:01.750 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-01-21 07:26:07.750 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epistory - Typing Chronicles - state=获取 link=https://store.epicgames.com/zh-CN/p/epistory-typing-chronicles-445794
+2023-01-21 07:26:08.180 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-01-21 07:26:08.180 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-01-21 07:26:17.408 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-01-21 07:26:17.452 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-21 07:26:17.452 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:26:18.215 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:26:19.079 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.86s
+2023-01-21 07:26:20.884 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.22s
+2023-01-21 07:26:20.901 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:26:22.932 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「森林中熊猫」
+2023-01-21 07:26:22.932 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-01-21 07:26:23.597 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-01-21 07:26:24.480 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.88s
+2023-01-21 07:26:26.698 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - panda_in_a_forest(ResNet)_model: 0.08s
+2023-01-21 07:26:26.729 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-01-21 07:26:26.729 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-01-21 07:26:29.089 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
