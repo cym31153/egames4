@@ -1,4 +1,7 @@
-2023/04/01-07:23:12.932 7ca Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Session Storage/MANIFEST-000001
-2023/04/01-07:23:12.934 7ca Recovering log #4
-2023/04/01-07:23:12.941 7ca Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Session Storage/000004.log 
-2023/04/01-07:23:12.943 7ca Delete type=0 #3
+2023/04/07-07:23:28.040 810 Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Session Storage/MANIFEST-000001
+2023/04/07-07:23:28.041 810 Recovering log #4
+2023/04/07-07:23:28.042 810 Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Session Storage/000004.log 
+2023/04/07-07:23:28.042 810 Delete type=0 #3
+2023/04/07-07:25:50.229 810 Level-0 table #8: started
+2023/04/07-07:25:50.230 810 Level-0 table #8: 11100 bytes OK
+2023/04/07-07:25:50.237 810 Delete type=0 #4

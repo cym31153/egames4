@@ -4263,3 +4263,75 @@ ResourceWarning:
 2023-04-01 07:25:38.900 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
 2023-04-01 07:25:38.900 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2023-04-01 07:25:41.263 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:23:25.741 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-04-07 07:23:28.238 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-04-07 07:23:28.294 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-04-07 07:23:31.206 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-04-07 07:23:33.514 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-04-07 07:23:33.515 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-04-07 07:23:33.762 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] 消逝的光芒：增强版 - state=待认领 link=https://store.epicgames.com/zh-CN/p/dying-light
+2023-04-07 07:23:33.762 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] shapez - state=待认领 link=https://store.epicgames.com/zh-CN/p/shapez-0929c9
+2023-04-07 07:23:42.312 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 消逝的光芒：增强版 - state=获取 link=https://store.epicgames.com/zh-CN/p/dying-light
+2023-04-07 07:23:42.960 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:23:42.991 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:23:54.450 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:23:54.498 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「猫 T 恤」
+2023-04-07 07:23:54.499 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:23:55.385 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:23:56.799 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.41s
+2023-04-07 07:23:57.465 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:24:05.441 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 消逝的光芒：增强版 - state=获取 link=https://store.epicgames.com/zh-CN/p/dying-light
+2023-04-07 07:24:06.069 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:24:06.069 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:24:15.526 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:24:15.563 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「猫 T 恤」
+2023-04-07 07:24:15.564 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:24:16.369 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:24:17.709 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-04-07 07:24:18.406 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:24:25.984 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 消逝的光芒：增强版 - state=获取 link=https://store.epicgames.com/zh-CN/p/dying-light
+2023-04-07 07:24:26.630 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:24:26.630 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:24:36.084 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:24:36.137 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「猫 T 恤」
+2023-04-07 07:24:36.138 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:24:36.944 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:24:38.281 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-04-07 07:24:38.981 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:24:44.761 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] shapez - state=获取 link=https://store.epicgames.com/zh-CN/p/shapez-0929c9
+2023-04-07 07:24:45.369 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:24:45.463 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:24:54.686 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:24:54.717 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「猫 T 恤」
+2023-04-07 07:24:54.718 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:24:55.454 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:24:56.698 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-04-07 07:24:57.220 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:25:02.885 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] shapez - state=获取 link=https://store.epicgames.com/zh-CN/p/shapez-0929c9
+2023-04-07 07:25:03.367 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:25:03.368 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:25:12.571 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:25:12.616 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「热狗」
+2023-04-07 07:25:12.616 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:25:13.354 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:25:14.587 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-04-07 07:25:14.591 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hot_dog.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hot_dog.onnx
+2023-04-07 07:25:16.628 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - hot_dog(ResNet)_model: 0.39s
+2023-04-07 07:25:16.648 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-07 07:25:18.674 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「热狗」
+2023-04-07 07:25:18.674 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:25:19.413 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:25:20.717 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.3s
+2023-04-07 07:25:22.173 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - hot_dog(ResNet)_model: 0.01s
+2023-04-07 07:25:22.393 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-04-07 07:25:22.393 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-04-07 07:25:24.708 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2023-04-07 07:25:30.483 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] shapez - state=获取 link=https://store.epicgames.com/zh-CN/p/shapez-0929c9
+2023-04-07 07:25:31.077 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-04-07 07:25:31.077 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-04-07 07:25:40.424 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2023-04-07 07:25:40.454 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「猫 T 恤」
+2023-04-07 07:25:40.454 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-04-07 07:25:41.192 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-04-07 07:25:42.415 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-04-07 07:25:42.905 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
