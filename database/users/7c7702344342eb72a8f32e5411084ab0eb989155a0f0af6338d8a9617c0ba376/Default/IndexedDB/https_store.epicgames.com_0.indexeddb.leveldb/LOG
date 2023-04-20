@@ -1,4 +1,13 @@
-2023/04/15-07:23:00.948 7de Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/15-07:23:00.948 7de Recovering log #4
-2023/04/15-07:23:00.970 7de Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000004.log 
-2023/04/15-07:23:00.970 7de Delete type=0 #3
+2023/04/21-07:24:14.306 7e1 Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/21-07:24:14.306 7e1 Recovering log #4
+2023/04/21-07:24:14.375 7e1 Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000004.log 
+2023/04/21-07:24:14.376 7e1 Delete type=0 #3
+2023/04/21-07:24:15.995 7fb Level-0 table #8: started
+2023/04/21-07:24:16.063 7fb Level-0 table #8: 1386247 bytes OK
+2023/04/21-07:24:16.069 7fb Delete type=0 #4
+2023/04/21-07:24:23.503 7fb Compacting 1@1 + 1@2 files
+2023/04/21-07:24:23.517 7fb Generated table #9@1: 217 keys, 39329 bytes
+2023/04/21-07:24:23.517 7fb Compacted 1@1 + 1@2 files => 39329 bytes
+2023/04/21-07:24:23.519 7fb compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/21-07:24:23.520 7fb Delete type=2 #8
+2023/04/21-07:24:23.520 7fb Delete type=2 #5
