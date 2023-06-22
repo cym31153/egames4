@@ -5447,3 +5447,11 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 2023-06-17 07:23:34.535 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
 2023-06-17 07:23:34.997 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Guacamelee! Super Turbo Championship Edition - state=待认领 link=https://store.epicgames.com/zh-CN/p/guacamelee-stce-7cdbc8
 2023-06-17 07:23:34.998 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Guacamelee! 2 - state=待认领 link=https://store.epicgames.com/zh-CN/p/guacamelee-2-ac4977
+2023-06-23 07:27:01.910 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-06-23 07:27:03.119 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-06-23 07:27:03.168 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-06-23 07:27:05.673 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-06-23 07:27:08.047 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-06-23 07:27:08.050 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-06-23 07:27:08.499 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Idle Champions of the Forgotten Realms - state=待认领 link=https://store.epicgames.com/zh-CN/p/idle-champions-of-the-forgotten-realms
+2023-06-23 07:27:08.500 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] theHunter: Call of the Wild™ - state=待认领 link=https://store.epicgames.com/zh-CN/p/thehunter-call-of-the-wild
