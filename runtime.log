@@ -5455,3 +5455,11 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 2023-06-23 07:27:08.050 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
 2023-06-23 07:27:08.499 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Idle Champions of the Forgotten Realms - state=待认领 link=https://store.epicgames.com/zh-CN/p/idle-champions-of-the-forgotten-realms
 2023-06-23 07:27:08.500 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] theHunter: Call of the Wild™ - state=待认领 link=https://store.epicgames.com/zh-CN/p/thehunter-call-of-the-wild
+2023-06-24 07:25:56.305 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-06-24 07:25:57.455 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-06-24 07:25:57.504 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-06-24 07:26:04.962 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-06-24 07:26:05.286 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-06-24 07:26:05.288 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-06-24 07:26:05.615 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Idle Champions of the Forgotten Realms - state=待认领 link=https://store.epicgames.com/zh-CN/p/idle-champions-of-the-forgotten-realms
+2023-06-24 07:26:05.616 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] theHunter: Call of the Wild™ - state=待认领 link=https://store.epicgames.com/zh-CN/p/thehunter-call-of-the-wild
