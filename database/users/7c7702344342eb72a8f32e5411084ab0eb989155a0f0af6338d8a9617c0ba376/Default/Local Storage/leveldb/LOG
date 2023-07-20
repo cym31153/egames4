@@ -1,3 +1,5 @@
-2023/07/15-07:24:54.737 7e9 Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Local Storage/leveldb/MANIFEST-000001
-2023/07/15-07:24:54.738 7e9 Recovering log #3
-2023/07/15-07:24:54.738 7e9 Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Local Storage/leveldb/000003.log 
+2023/07/21-07:23:46.681 83e Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/Local Storage/leveldb/MANIFEST-000001
+2023/07/21-07:23:46.682 83e Recovering log #3
+2023/07/21-07:23:46.683 83e Level-0 table #3: started
+2023/07/21-07:23:46.688 83e Level-0 table #3: 11174 bytes OK
+2023/07/21-07:23:46.691 83e Delete type=0 #3
