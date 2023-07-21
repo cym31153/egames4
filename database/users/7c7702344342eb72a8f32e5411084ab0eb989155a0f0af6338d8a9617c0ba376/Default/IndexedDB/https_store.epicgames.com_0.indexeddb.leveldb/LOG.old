@@ -1,6 +1,6 @@
-2023/07/15-07:24:58.662 7f7 Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/15-07:24:58.662 7f7 Recovering log #7
-2023/07/15-07:24:58.671 7f7 Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000007.log 
-2023/07/15-07:24:58.671 7f7 Delete type=0 #4
-2023/07/15-07:24:58.671 7f7 Delete type=0 #3
-2023/07/15-07:24:58.671 7f7 Delete type=2 #5
+2023/07/21-07:23:51.800 84b Reusing MANIFEST /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/21-07:23:51.800 84b Recovering log #7
+2023/07/21-07:23:51.810 84b Reusing old log /home/runner/work/egames4/egames4/epic/src/database/users/7c7702344342eb72a8f32e5411084ab0eb989155a0f0af6338d8a9617c0ba376/Default/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/000007.log 
+2023/07/21-07:23:51.810 84b Delete type=0 #4
+2023/07/21-07:23:51.810 84b Delete type=0 #3
+2023/07/21-07:23:51.810 84b Delete type=2 #5
