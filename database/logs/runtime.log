@@ -6096,3 +6096,11 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 2023-07-22 07:22:29.447 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
 2023-07-22 07:22:29.769 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Murder by Numbers - state=待认领 link=https://store.epicgames.com/zh-CN/p/murder-by-numbers
 2023-07-22 07:22:29.770 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] The Elder Scrolls Online - state=待认领 link=https://store.epicgames.com/zh-CN/p/the-elder-scrolls-online
+2023-07-28 07:21:07.538 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-07-28 07:21:11.242 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-07-28 07:21:11.293 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-07-28 07:21:13.329 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2023-07-28 07:21:15.328 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-07-28 07:21:15.330 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-07-28 07:21:15.800 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Severed Steel - state=待认领 link=https://store.epicgames.com/zh-CN/p/severed-steel
+2023-07-28 07:21:15.803 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Homeworld Remastered Collection - state=待认领 link=https://store.epicgames.com/zh-CN/p/homeworld-remastered-collection
