@@ -1,9 +1,9 @@
-2023-09-18 22:45:13 | INFO - prelude- {'action': 'Checking the operating environment'}
-2023-09-18 22:45:14 | DEBUG - Downloading resource- {'url': 'https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml', 'to': '/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/onnx/models/objects.yaml'}
-2023-09-18 22:45:14 | INFO - Reloading the local cache of Assets- {'assets_dir': '/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/onnx/models/_assets'}
-2023-09-18 22:45:14 | DEBUG - Pulling Assets index file- {'url': 'https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases'}
-2023-09-18 22:45:18 | INFO - execute task- {'name': 'claim_epic_games'}
-2023-09-18 22:45:18 | INFO - claim_epic_games- {'action': 'Try to flush cookie'}
-2023-09-18 22:45:23 | SUCCESS - login- {'result': 'token has not expired'}
-2023-09-18 22:45:37 | SUCCESS - flush_token- {'path': PosixPath('/home/runner/work/egames4/egames4/epic/user_data_dir/epic-games@cym31152/ctx_cookie.json')}
-2023-09-18 22:45:38 | SUCCESS - Pass claim task- {'reason': 'All free games of the week are in my library'}
+2023-09-19 22:44:59 | INFO - prelude- {'action': 'Checking the operating environment'}
+2023-09-19 22:45:00 | DEBUG - Downloading resource- {'url': 'https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml', 'to': '/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/onnx/models/objects.yaml'}
+2023-09-19 22:45:00 | INFO - Reloading the local cache of Assets- {'assets_dir': '/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/onnx/models/_assets'}
+2023-09-19 22:45:00 | DEBUG - Pulling Assets index file- {'url': 'https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases'}
+2023-09-19 22:45:03 | INFO - execute task- {'name': 'claim_epic_games'}
+2023-09-19 22:45:03 | INFO - claim_epic_games- {'action': 'Try to flush cookie'}
+2023-09-19 22:45:06 | SUCCESS - login- {'result': 'token has not expired'}
+2023-09-19 22:45:17 | SUCCESS - flush_token- {'path': PosixPath('/home/runner/work/egames4/egames4/epic/user_data_dir/epic-games@cym31152/ctx_cookie.json')}
+2023-09-19 22:45:18 | SUCCESS - Pass claim task- {'reason': 'All free games of the week are in my library'}
