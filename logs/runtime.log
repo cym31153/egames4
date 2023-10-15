@@ -1,86 +1,14 @@
-2023-10-14 12:42:53 | INFO    | __main__:stash:119 | run - {'role': 'EpicPlayer', 'headless': True}
-2023-10-14 12:43:00 | ERROR    | __main__:run:138 | An error has been caught in function 'run', process 'MainProcess' (4053), thread 'MainThread' (140424010996800): - {}
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
-    yield
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
-    return self._sock.recv(max_bytes)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/ssl.py", line 1292, in recv
-    return self.read(buflen)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/ssl.py", line 1165, in read
-    return self._sslobj.read(len)
-TimeoutError: The read operation timed out
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_transports/default.py", line 66, in map_httpcore_exceptions
-    yield
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_transports/default.py", line 228, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 262, in handle_request
-    raise exc
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 245, in handle_request
-    response = connection.handle_request(request)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 133, in handle_request
-    raise exc
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 111, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 176, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 212, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadTimeout: The read operation timed out
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 142, in <module>
-    asyncio.run(run())
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
-    self.run_forever()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
-    self._run_once()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
-    handle._run()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/events.py", line 80, in _run
-    self._context.run(self._callback, *self._args)
-> File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 138, in run
-    await agent.stash()
-  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 130, in stash
-    solver.install(upgrade=True)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/__init__.py", line 67, in install
-    modelhub.assets.flush_runtime_assets(upgrade=upgrade)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/onnx/modelhub.py", line 164, in flush_runtime_assets
-    resp = httpx.get(self.release_url, timeout=3)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_api.py", line 189, in get
-    return request(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_api.py", line 100, in request
-    return client.request(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_client.py", line 814, in request
-    return self.send(request, auth=auth, follow_redirects=follow_redirects)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_client.py", line 901, in send
-    response = self._send_handling_auth(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_client.py", line 929, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_client.py", line 966, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_client.py", line 1002, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_transports/default.py", line 227, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/httpx/_transports/default.py", line 83, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadTimeout: The read operation timed out
+2023-10-15 12:43:03 | INFO    | __main__:stash:119 | run - {'role': 'EpicPlayer', 'headless': True}
+2023-10-15 12:43:07 | INFO    | __main__:claim_epic_games:85 | Try to flush cookie - {'task': 'claim_epic_games'}
+2023-10-15 12:43:08 | SUCCESS    | services.agents.epic_games:_login:185 | login - {'result': 'token has not expired'}
+2023-10-15 12:43:17 | SUCCESS    | services.agents.epic_games:flush_token:206 | flush_token - {'path': PosixPath('/home/runner/work/egames4/egames4/epic/user_data_dir/epic-games@cym31152/ctx_cookie.json')}
+2023-10-15 12:43:18 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Blazing Sails', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
+2023-10-15 12:43:18 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Q.U.B.E. ULTIMATE BUNDLE', 'url': 'https://store.epicgames.com/en-US/bundles/qube-ultimate-bundle'}
+2023-10-15 12:43:18 | INFO    | services.agents.epic_games:claim_weekly_games:214 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
+2023-10-15 12:43:26 | INFO    | services.agents.epic_games:claim_weekly_games:245 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-10-15 12:43:30 | INFO    | services.agents.epic_games:claim_weekly_games:247 | claim_weekly_games - {'action': 'click payment button'}
+2023-10-15 12:43:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnіmаl.'}
+2023-10-15 12:44:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnimаl.'}
+2023-10-15 12:44:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnіmal.'}
+2023-10-15 12:44:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_hedgehog2309.onnx', 'prompt': 'Please click on the largest аnimal.'}
+2023-10-15 12:44:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_hedgehog2309.onnx', 'prompt': 'Please click on the largest anіmаl.'}
