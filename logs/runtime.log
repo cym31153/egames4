@@ -1,14 +1,13 @@
-2023-10-15 12:43:03 | INFO    | __main__:stash:119 | run - {'role': 'EpicPlayer', 'headless': True}
-2023-10-15 12:43:07 | INFO    | __main__:claim_epic_games:85 | Try to flush cookie - {'task': 'claim_epic_games'}
-2023-10-15 12:43:08 | SUCCESS    | services.agents.epic_games:_login:185 | login - {'result': 'token has not expired'}
-2023-10-15 12:43:17 | SUCCESS    | services.agents.epic_games:flush_token:206 | flush_token - {'path': PosixPath('/home/runner/work/egames4/egames4/epic/user_data_dir/epic-games@cym31152/ctx_cookie.json')}
-2023-10-15 12:43:18 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Blazing Sails', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
-2023-10-15 12:43:18 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Q.U.B.E. ULTIMATE BUNDLE', 'url': 'https://store.epicgames.com/en-US/bundles/qube-ultimate-bundle'}
-2023-10-15 12:43:18 | INFO    | services.agents.epic_games:claim_weekly_games:214 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
-2023-10-15 12:43:26 | INFO    | services.agents.epic_games:claim_weekly_games:245 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-10-15 12:43:30 | INFO    | services.agents.epic_games:claim_weekly_games:247 | claim_weekly_games - {'action': 'click payment button'}
-2023-10-15 12:43:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnіmаl.'}
-2023-10-15 12:44:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnimаl.'}
-2023-10-15 12:44:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_rabbit2310.onnx', 'prompt': 'Please click on the largest аnіmal.'}
-2023-10-15 12:44:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_hedgehog2309.onnx', 'prompt': 'Please click on the largest аnimal.'}
-2023-10-15 12:44:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:394 | rank model - {'resnet': 'nested_largest_hedgehog2309.onnx', 'prompt': 'Please click on the largest anіmаl.'}
+2023-10-16 12:43:18 | INFO    | __main__:stash:119 | run - {'role': 'EpicPlayer', 'headless': True}
+2023-10-16 12:43:28 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Blazing Sails', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
+2023-10-16 12:43:28 | DEBUG    | __main__:create_tasks:54 | Put task - {'title': 'Q.U.B.E. ULTIMATE BUNDLE', 'url': 'https://store.epicgames.com/en-US/bundles/qube-ultimate-bundle'}
+2023-10-16 12:43:29 | INFO    | services.agents.epic_games:claim_weekly_games:214 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/blazing-sails'}
+2023-10-16 12:43:38 | INFO    | services.agents.epic_games:claim_weekly_games:245 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-10-16 12:43:41 | INFO    | services.agents.epic_games:claim_weekly_games:247 | claim_weekly_games - {'action': 'click payment button'}
+2023-10-16 12:43:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:399 | rank model - {'resnet': 'nested_largest_hedgehog2309.onnx', 'prompt': 'Please click on the largest аnimal.'}
+2023-10-16 12:43:56 | SUCCESS    | services.agents.epic_games:claim_weekly_games:258 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
+2023-10-16 12:43:56 | INFO    | services.agents.epic_games:claim_bundle_games:262 | claim_bundle_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/bundles/qube-ultimate-bundle'}
+2023-10-16 12:44:05 | INFO    | services.agents.epic_games:claim_bundle_games:283 | claim_bundle_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-10-16 12:44:08 | INFO    | services.agents.epic_games:claim_bundle_games:285 | claim_bundle_games - {'action': 'click payment button'}
+2023-10-16 12:44:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_solution:373 | match model - {'resnet': 'boat2310.onnx', 'prompt': 'Please click each image containing a bοаt'}
+2023-10-16 12:44:26 | SUCCESS    | services.agents.epic_games:claim_bundle_games:298 | claim_bundle_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/download?ns=0712c5eca64b47bbbced82cabba9f0d7&id=f18f14a76a874aa883a651fcc8c513d0'}
