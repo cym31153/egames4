@@ -1,6 +1,6 @@
-2023-10-17 12:43:49 | ERROR    | __main__:run:138 | An error has been caught in function 'run', process 'MainProcess' (5228), thread 'MainThread' (139880661249088): - {}
+2023-10-18 12:43:59 | ERROR    | __main__:run:144 | An error has been caught in function 'run', process 'MainProcess' (5385), thread 'MainThread' (139728372055104): - {}
 Traceback (most recent call last):
-  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 142, in <module>
+  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 148, in <module>
     asyncio.run(run())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/runners.py", line 44, in run
     return loop.run_until_complete(main)
@@ -12,15 +12,15 @@ Traceback (most recent call last):
     handle._run()
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/events.py", line 80, in _run
     self._context.run(self._callback, *self._args)
-> File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 138, in run
+> File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 144, in run
     await agent.stash()
-  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 131, in stash
+  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 137, in stash
     await self.claim_epic_games(context)
-  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 110, in claim_epic_games
+  File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 116, in claim_epic_games
     await epic.claim_weekly_games(page, single_promotions)
-  File "/home/runner/work/egames4/egames4/epic/src/services/agents/epic_games.py", line 230, in claim_weekly_games
+  File "/home/runner/work/egames4/egames4/epic/src/epic_games/agent.py", line 248, in claim_weekly_games
     await expect(cta_btn).to_have_text("View In Cart")
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20041, in to_have_text
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20080, in to_have_text
     await self._impl_obj.to_have_text(
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 455, in to_have_text
     await self._expect_impl(
