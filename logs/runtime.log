@@ -1,9 +1,9 @@
-2023-11-10 12:43:34 | INFO    | __main__:stash:140 | run - {'image': '20231105', 'version': '0.9.5', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
-2023-11-10 12:43:40 | WARNING    | epic_games.agent:get_order_history:403 | Failed to get order history, cookie may have expired - {}
-2023-11-10 12:43:41 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Golden Light', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
-2023-11-10 12:43:47 | INFO    | epic_games.agent:claim_weekly_games:237 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
-2023-11-10 12:43:57 | INFO    | epic_games.agent:claim_weekly_games:268 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-11-10 12:43:59 | INFO    | epic_games.agent:claim_weekly_games:270 | claim_weekly_games - {'action': 'click payment button'}
-2023-11-10 12:44:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:477 | select model - {'yolo': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
-2023-11-10 12:44:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:477 | select model - {'yolo': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
-2023-11-10 12:44:15 | SUCCESS    | epic_games.agent:claim_weekly_games:281 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
+2023-11-11 12:43:37 | INFO    | __main__:stash:140 | run - {'image': '20231105', 'version': '0.9.5', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
+2023-11-11 12:43:42 | WARNING    | epic_games.agent:get_order_history:403 | Failed to get order history, cookie may have expired - {}
+2023-11-11 12:43:42 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Golden Light', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
+2023-11-11 12:43:48 | INFO    | epic_games.agent:claim_weekly_games:237 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
+2023-11-11 12:44:03 | SUCCESS    | epic_games.agent:claim_weekly_games:257 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2023-11-11 12:44:03 | INFO    | epic_games.agent:claim_weekly_games:237 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
+2023-11-11 12:44:18 | SUCCESS    | epic_games.agent:claim_weekly_games:257 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2023-11-11 12:44:18 | INFO    | epic_games.agent:claim_weekly_games:237 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
+2023-11-11 12:44:33 | SUCCESS    | epic_games.agent:claim_weekly_games:257 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
