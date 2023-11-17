@@ -1,3 +1,21 @@
-2023-11-16 12:43:41 | INFO    | __main__:stash:140 | run - {'image': '20231105', 'version': '0.9.5.post1', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
-2023-11-16 12:43:47 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Golden Light', 'url': 'https://store.epicgames.com/en-US/p/golden-light-f543b3'}
-2023-11-16 12:43:47 | SUCCESS    | __main__:prelude_with_context:84 | Pass claim task - {'reason': 'All free games are in my library', 'stage': 'context-prelude'}
+2023-11-17 12:44:03 | INFO    | __main__:stash:140 | run - {'image': '20231105', 'version': '0.9.5.post1', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
+2023-11-17 12:44:11 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Surviving the Aftermath', 'url': 'https://store.epicgames.com/en-US/p/surviving-the-aftermath'}
+2023-11-17 12:44:11 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'EARTHLOCK', 'url': 'https://store.epicgames.com/en-US/p/earthlock-e7d979'}
+2023-11-17 12:44:17 | INFO    | epic_games.agent:claim_weekly_games:280 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/surviving-the-aftermath'}
+2023-11-17 12:44:22 | INFO    | epic_games.agent:claim_weekly_games:280 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/earthlock-e7d979'}
+2023-11-17 12:44:32 | INFO    | epic_games.agent:claim_weekly_games:312 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-11-17 12:44:35 | INFO    | epic_games.agent:claim_weekly_games:314 | claim_weekly_games - {'action': 'click payment button'}
+2023-11-17 12:44:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_squirrel2310.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfе'}
+2023-11-17 12:44:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_colder_snowman2309.onnx', 'prompt': 'Please select all images of one type that appear colder in comparison to other imаgеs'}
+2023-11-17 12:44:57 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_lion2309.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfе'}
+2023-11-17 12:45:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_squirrel2310.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfe'}
+2023-11-17 12:45:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_lion2309.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfe'}
+2023-11-17 12:45:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_squirrel2310.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfe'}
+2023-11-17 12:45:43 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_colder_snowman2309.onnx', 'prompt': 'Please select all images of one type that appear colder in comparison to other imаgеѕ'}
+2023-11-17 12:45:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_lion2309.onnx', 'prompt': 'Please click on each image containing the largest animal in real lifе'}
+2023-11-17 12:46:27 | INFO    | epic_games.agent:claim_weekly_games:280 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/surviving-the-aftermath'}
+2023-11-17 12:46:32 | INFO    | epic_games.agent:claim_weekly_games:280 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/earthlock-e7d979'}
+2023-11-17 12:46:41 | INFO    | epic_games.agent:claim_weekly_games:312 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-11-17 12:46:43 | INFO    | epic_games.agent:claim_weekly_games:314 | claim_weekly_games - {'action': 'click payment button'}
+2023-11-17 12:46:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:408 | rank model - {'resnet': 'nested_largest_lion2309.onnx', 'prompt': 'Please click on each image containing the largest animal in real lіfе'}
+2023-11-17 12:46:57 | SUCCESS    | epic_games.agent:claim_weekly_games:325 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
