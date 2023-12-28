@@ -1,24 +1,24 @@
-2023-12-27 12:43:45 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-27 12:43:51 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Human Resource Machine', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 12:43:58 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 12:44:07 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-27 12:44:10 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-27 12:44:15 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρleaѕe сlick on all images of tһe heaviest animal species'}
-2023-12-27 12:44:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like ρlease click on all images of the heaviest animal species.', "This is a picture that don't look like ρlease click on all images of the heaviest animal species."], 'prompt': 'Ρleaѕe сlick on all images of tһe heaviest animal species', 'timit': '1.043s'}
-2023-12-27 12:44:22 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-27 12:44:54 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 12:45:02 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-27 12:45:05 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-27 12:45:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of the heaviest animal sрecies'}
-2023-12-27 12:45:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of the heaviest animal sрecies', 'timit': '0.740s'}
-2023-12-27 12:45:17 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-27 12:45:49 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 12:45:57 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-27 12:45:59 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-27 12:46:04 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of the heaviest animal species'}
-2023-12-27 12:46:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of the heaviest animal species', 'timit': '0.718s'}
-2023-12-27 12:46:11 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-27 12:46:43 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (5351), thread 'MainThread' (140067172055936): - {}
+2023-12-28 12:46:11 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-28 12:46:17 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Cursed to Golf', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 12:46:22 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 12:46:34 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-28 12:46:37 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-28 12:46:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of the һeaviest animal specіes'}
+2023-12-28 12:46:43 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of the һeaviest animal specіes', 'timit': '0.937s'}
+2023-12-28 12:46:48 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-28 12:47:20 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 12:47:28 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-28 12:47:31 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-28 12:47:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of tһe hеaviest animal species'}
+2023-12-28 12:47:37 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of tһe hеaviest animal species', 'timit': '0.752s'}
+2023-12-28 12:47:43 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-28 12:48:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 12:48:24 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-28 12:48:26 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-28 12:48:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images of the heaviest animal sрeciеs'}
+2023-12-28 12:48:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all images of the heaviest animal species.', "This is a picture that don't look like please click on all images of the heaviest animal species."], 'prompt': 'Please click on all images of the heaviest animal sрeciеs', 'timit': '0.832s'}
+2023-12-28 12:48:39 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-28 12:49:11 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (5410), thread 'MainThread' (140203233016704): - {}
 Traceback (most recent call last):
   File "/home/runner/work/egames4/egames4/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
